@@ -25,6 +25,6 @@ public class MarkdownParseTest{
         assertEquals(List.of("https://something.com", "some-page.html"), MarkdownParse.getLinks(file1));
         assertEquals(List.of("https://something.com", "some-page.html"), MarkdownParse.getLinks(file2));
         assertEquals(List.of(), MarkdownParse.getLinks(file3));
-
+        System.out.println("run");
     }
 }
