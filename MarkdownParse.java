@@ -25,7 +25,9 @@ public class MarkdownParse {
                 if(closeParen == -1){
                     closeParen = openParen;
                 }
+                
                 currentIndex = closeParen + 1;
+                    
             }
             else{
                 int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
